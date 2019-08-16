@@ -1,0 +1,66 @@
+Aug  7 10:39:10 10.71.52.13 u94771589 Connection from 10.71.52.13 port 48538 on 74.208.59.80 port 22
+Aug  7 10:39:13 10.71.52.13 u94771589 Accepted password for u94771589 from 10.71.52.13 port 48538 ssh2
+Aug  7 10:39:13 10.71.52.13 u94771589 Starting session: subsystem 'sftp' for u94771589 from 10.71.52.13 port 48538
+Aug  7 10:39:13 10.71.52.13 u94771589 session opened for local user u94771589 from [10.71.52.13]
+Aug  7 10:39:50 10.71.52.13 u94771589 Connection from 10.71.52.13 port 11776 on 74.208.59.80 port 22
+Aug  7 10:39:53 10.71.52.13 u94771589 Accepted password for u94771589 from 10.71.52.13 port 11776 ssh2
+Aug  7 10:39:50 10.71.52.13 u94771589 Connection from 10.71.52.13 port 11774 on 74.208.59.80 port 22
+Aug  7 10:39:53 10.71.52.13 u94771589 Accepted password for u94771589 from 10.71.52.13 port 11774 ssh2
+Aug  7 10:39:53 10.71.52.13 u94771589 Starting session: subsystem 'sftp' for u94771589 from 10.71.52.13 port 11776
+Aug  7 10:39:53 10.71.52.13 u94771589 Starting session: subsystem 'sftp' for u94771589 from 10.71.52.13 port 11774
+Aug  7 10:39:53 10.71.52.13 u94771589 session opened for local user u94771589 from [10.71.52.13]
+Aug  7 10:39:53 10.71.52.13 u94771589 session opened for local user u94771589 from [10.71.52.13]
+Aug  7 10:39:55 10.71.52.13 u94771589 open "/ - Copie.env" flags READ mode 0666
+Aug  7 10:39:55 10.71.52.13 u94771589 open "/ - Copie (2).env" flags READ mode 0666
+Aug  7 10:39:56 10.71.52.13 u94771589 close "/ - Copie (2).env" bytes read 670 written 0
+Aug  7 10:39:56 10.71.52.13 u94771589 [10.71.52.13|get|1|670|0|0|0|2f202d20436f706965202832292e656e76|]
+Aug  7 10:39:56 10.71.52.13 u94771589 close "/ - Copie.env" bytes read 625 written 0
+Aug  7 10:39:56 10.71.52.13 u94771589 [10.71.52.13|get|1|625|0|0|0|2f202d20436f7069652e656e76|]
+Aug  7 10:39:56 10.71.52.13 u94771589 open "/.bash_history" flags READ mode 0666
+Aug  7 10:39:56 10.71.52.13 u94771589 open "/.env" flags READ mode 0666
+Aug  7 10:39:57 10.71.52.13 u94771589 close "/.bash_history" bytes read 4627 written 0
+Aug  7 10:39:57 10.71.52.13 u94771589 [10.71.52.13|get|1|4627|0|0|0|2f2e626173685f686973746f7279|]
+Aug  7 10:39:57 10.71.52.13 u94771589 close "/.env" bytes read 753 written 0
+Aug  7 10:39:57 10.71.52.13 u94771589 [10.71.52.13|get|1|753|0|0|0|2f2e656e76|]
+Aug  7 10:39:58 10.71.52.13 u94771589 open "/.env.example" flags READ mode 0666
+Aug  7 10:39:58 10.71.52.13 u94771589 open "/.gitattributes" flags READ mode 0666
+Aug  7 10:39:58 10.71.52.13 u94771589 close "/.env.example" bytes read 565 written 0
+Aug  7 10:39:58 10.71.52.13 u94771589 [10.71.52.13|get|0|565|0|0|0|2f2e656e762e6578616d706c65|]
+Aug  7 10:39:58 10.71.52.13 u94771589 close "/.gitattributes" bytes read 111 written 0
+Aug  7 10:39:58 10.71.52.13 u94771589 [10.71.52.13|get|0|111|0|0|0|2f2e67697461747472696275746573|]
+Aug  7 10:39:59 10.71.52.13 u94771589 open "/.gitignore" flags READ mode 0666
+Aug  7 10:39:59 10.71.52.13 u94771589 open "/.htaccess" flags READ mode 0666
+Aug  7 10:40:00 10.71.52.13 u94771589 close "/.gitignore" bytes read 146 written 0
+Aug  7 10:40:00 10.71.52.13 u94771589 [10.71.52.13|get|1|146|0|0|0|2f2e67697469676e6f7265|]
+Aug  7 10:40:00 10.71.52.13 u94771589 close "/.htaccess" bytes read 744 written 0
+Aug  7 10:40:00 10.71.52.13 u94771589 [10.71.52.13|get|1|744|0|0|0|2f2e6874616363657373|]
+Aug  7 10:40:00 10.71.52.13 u94771589 open "/artisan" flags READ mode 0666
+Aug  7 10:40:00 10.71.52.13 u94771589 open "/composer.json" flags READ mode 0666
+Aug  7 10:40:01 10.71.52.13 u94771589 close "/artisan" bytes read 1686 written 0
+Aug  7 10:40:01 10.71.52.13 u94771589 [10.71.52.13|get|1|1686|0|0|0|2f6172746973616e|]
+Aug  7 10:40:01 10.71.52.13 u94771589 close "/composer.json" bytes read 1572 written 0
+Aug  7 10:40:01 10.71.52.13 u94771589 [10.71.52.13|get|1|1572|0|0|0|2f636f6d706f7365722e6a736f6e|]
+Aug  7 10:40:02 10.71.52.13 u94771589 open "/composer.lock" flags READ mode 0666
+Aug  7 10:40:02 10.71.52.13 u94771589 open "/composer.phar" flags READ mode 0666
+Aug  7 10:40:03 10.71.52.13 u94771589 close "/composer.lock" bytes read 153922 written 0
+Aug  7 10:40:03 10.71.52.13 u94771589 [10.71.52.13|get|1|153922|0|0|0|2f636f6d706f7365722e6c6f636b|]
+Aug  7 10:40:04 10.71.52.13 u94771589 open "/favicon.ico" flags READ mode 0666
+Aug  7 10:40:04 10.71.52.13 u94771589 close "/composer.phar" bytes read 1909682 written 0
+Aug  7 10:40:04 10.71.52.13 u94771589 [10.71.52.13|get|2|1909682|0|0|0|2f636f6d706f7365722e70686172|]
+Aug  7 10:40:05 10.71.52.13 u94771589 close "/favicon.ico" bytes read 894 written 0
+Aug  7 10:40:05 10.71.52.13 u94771589 [10.71.52.13|get|1|894|0|0|0|2f66617669636f6e2e69636f|]
+Aug  7 10:40:05 10.71.52.13 u94771589 open "/index.php" flags READ mode 0666
+Aug  7 10:40:06 10.71.52.13 u94771589 close "/index.php" bytes read 1817 written 0
+Aug  7 10:40:06 10.71.52.13 u94771589 [10.71.52.13|get|1|1817|0|0|0|2f696e6465782e706870|]
+Aug  7 10:40:06 10.71.52.13 u94771589 open "/local.bat" flags READ mode 0666
+Aug  7 10:40:07 10.71.52.13 u94771589 open "/package.json" flags READ mode 0666
+Aug  7 10:40:07 10.71.52.13 u94771589 close "/local.bat" bytes read 3 written 0
+Aug  7 10:40:07 10.71.52.13 u94771589 [10.71.52.13|get|1|3|0|0|0|2f6c6f63616c2e626174|]
+Aug  7 10:40:07 10.71.52.13 u94771589 session closed for local user u94771589 from [10.71.52.13]
+Aug  7 10:40:07 10.71.52.13 u94771589 Connection closed by 10.71.52.13
+Aug  7 10:40:07 10.71.52.13 u94771589 Connection closed by 10.71.52.13
+Aug  7 10:40:07 10.71.52.13 u94771589 forced close "/package.json" bytes read 1125 written 0
+Aug  7 10:40:07 10.71.52.13 u94771589 [10.71.52.13|get|0|1125|0|0|0|2f7061636b6167652e6a736f6e|]
+Aug  7 10:40:07 10.71.52.13 u94771589 session closed for local user u94771589 from [10.71.52.13]
+Aug  7 10:40:08 10.71.52.13 u94771589 session closed for local user u94771589 from [10.71.52.13]
+Aug  7 10:40:08 10.71.52.13 u94771589 Connection closed by 10.71.52.13

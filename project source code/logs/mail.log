@@ -1,0 +1,3 @@
+2019-08-06 13:07:49 u94771589 0EdjBa-1iYDFE0XOz-00e84l |< REMOTE=196.181.157.219 SCRIPT=/index.php -- /usr/sbin/sendmail -t -i -finfo@azerket.com
+2019-08-06 13:07:49 u94771589 0EdjBa-1iYDFE0XOz-00e84l <= S=info@azerket.com SZ=9886 D=0 SID=752502523
+2019-08-06 13:07:49 u94771589 0EdjBa-1iYDFE0XOz-00e84l EE smtp server authentication rejected

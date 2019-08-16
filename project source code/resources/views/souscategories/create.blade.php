@@ -1,0 +1,52 @@
+@extends('layouts.admin')
+@section('content')
+<div style="background-color:#FAFAFA;">
+    <div class="container" style="background-color:white;">
+        <div class="row">
+            
+            <div class="col-md-8 col-md-offset-2">
+                @if(count($errors)>0)
+                                    <ul>
+                                        @foreach($errors->all() as $error)
+                                            <li class="alert alert-danger">{{$error}}</li>
+                                        @endforeach
+                                    </ul>
+                                @endif
+                <div class="widget personal-info">
+                <h4 class="widget-header user"><center>Ajouter une sous categorie</center></h4> 
+                    
+                
+
+                    <div class="card-body">
+                        {!! Form::open(['route' => 'souscategories.store', 'method' => 'post']) !!}
+                                
+                                <div class="form-group">
+                                        {{ Form::label('category_id', 'Categories') }}
+                                        {{ Form::select('categorie_id',$categories, null, ['class' => 'form-control','placeholder'=>'Select Category']) }}
+                                </div>
+                                <div class="form-group">
+                                    {{ Form::label('name', 'Libelle') }}
+                                    {{ Form::text('name', null, array('class' => 'form-control')) }}
+                                </div>
+                                <center>
+                                    <div class="form-group">
+                                        {{ Form::submit('Envoyer', array('class' => 'btn btn-transparent')) }}
+                                       {!! Form::close() !!}
+                                    </div>
+                                </center>
+                    </div>
+                    
+                    </div>
+					
+	    </div>
+		<div class="col-md-10 offset-md-1 col-lg-4 offset-lg-0">
+                     @include('include/sidebarAdmin')
+			</div>
+	    
+            
+		</div>
+	</div>
+</div>
+ 
+@endsection
+
